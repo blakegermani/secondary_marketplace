@@ -18,13 +18,13 @@
 
 ### 2. Install Dependencies:
 ```
-$ cd nft_marketplace
-$ npm install
+cd nft_marketplace
+npm install
 ```
 ### 3. Boot up local development blockchain
 ```
-$ cd nft_marketplace
-$ npx hardhat node
+cd nft_marketplace
+npx hardhat node
 ```
 
 ### 4. Connect development blockchain accounts to Metamask
@@ -37,10 +37,10 @@ $ npx hardhat node
 `npx hardhat run src/backend/scripts/deploy.js --network localhost`
 
 ### 6. Run Tests
-`$ npx hardhat test`
+`npx hardhat test`
 
 ### 7. Launch Frontend
-`$ npm run start`
+`npm run start`
 
 License
 ----
